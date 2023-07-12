@@ -1,0 +1,26 @@
+{
+    "name": "ilyasdiker/laravel-availabilities",
+    "description": "A Laravel Availabilities For Eloquent Models",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ilyasdiker\\LaravelAvailabilities\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Ilyasdiker\\LaravelAvailabilities\\LaravelAvailabilitiesServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "IlyasDiker",
+            "email": "ilyasbenhssine@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev"
+}
