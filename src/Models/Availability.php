@@ -8,7 +8,7 @@ use Ilyasdiker\LaravelAvailabilities\Services\AvailabilityService;
 
 class Availability extends Model
 {
-    // use HasFactory;
+    use HasFactory;
 
     protected $fillable = [
         'day_of_week',
