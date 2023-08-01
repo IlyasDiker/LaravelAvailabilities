@@ -27,3 +27,4 @@ class AvailabilityFactory extends Factory
         ];
     }
 }
+ 
