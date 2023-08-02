@@ -4,7 +4,6 @@ namespace Ilyasdiker\LaravelAvailabilities\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Ilyasdiker\LaravelAvailabilities\Database\Factories\AvailabilityFactory;
 use Ilyasdiker\LaravelAvailabilities\Services\AvailabilityService;
 
 class Availability extends Model
