@@ -21,7 +21,10 @@ class AvailabilityService
         $endTime = Carbon::parse($availability->end_time);
         $slotDuration = $availability->slot_duration;
 
-        while ($currentTime <= $endTime) {
+        while ($currentTime->copy()->addMinutes($slotDuration) <= $endTime) {
+            if(count($availabilities) > 0){
+                $currentTime->addMinutes(1);
+            }
             $availability = [
                 'start_time' => $currentTime->toTimeString(),
                 'end_time' => $currentTime->addMinutes($slotDuration)->toTimeString(),
