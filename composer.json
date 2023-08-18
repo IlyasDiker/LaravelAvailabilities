@@ -21,6 +21,9 @@
             "email": "ilyasbenhssine@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^8.64|^9.0|^10.0"
+    },
     "minimum-stability": "dev"
 }

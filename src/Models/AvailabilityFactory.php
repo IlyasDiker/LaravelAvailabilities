@@ -1,6 +1,6 @@
 <?php
 
-namespace Ilyasdiker\LaravelAvailabilities\Database\Factories;
+namespace Ilyasdiker\LaravelAvailabilities\Models;
 
 use Ilyasdiker\LaravelAvailabilities\Models\Availability;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -27,3 +27,4 @@ class AvailabilityFactory extends Factory
         ];
     }
 }
+ 
