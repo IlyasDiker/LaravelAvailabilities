@@ -1,0 +1,1 @@
+![Package Image](https://banners.beyondco.de/Laravel%20Availabilities.png?theme=light&packageManager=composer+require&packageName=ilyasdiker%2Flaravel-availabilities&pattern=moroccan&style=style_1&description=Generate+Availabilities+for+your+Models&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
